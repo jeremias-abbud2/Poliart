@@ -18,18 +18,14 @@ export const Footer: React.FC = () => {
           
           {/* Column 1: Giant Prominent Logo, Brand & Slogan */}
           <div className="lg:col-span-5 space-y-5">
-            <motion.div 
-              whileHover={{ scale: 1.03 }}
-              transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className="inline-block p-3 rounded-2xl bg-[#FF6800] shadow-2xl shadow-orange-950/80 border-2 border-white/20"
-            >
+            <div className="inline-block p-3 rounded-2xl bg-[#FF6800] shadow-2xl shadow-orange-950/80 border-2 border-white/20">
               <img
                 src={BUSINESS_INFO.logoUrl}
                 alt="Poliart Silk Screen - Logotipo Oficial"
-                className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain drop-shadow-[0_6px_20px_rgba(0,0,0,0.35)]"
+                className="h-20 sm:h-24 md:h-28 lg:h-32 w-auto object-contain block"
                 loading="lazy"
               />
-            </motion.div>
+            </div>
 
             <p className="text-orange-100/90 leading-relaxed max-w-md font-medium text-sm">
               "Poliart Conecta: Sua Marca em Destaque, Online e Offline. Transformamos suas ideias em resultados visuais que impactam. Qualidade que você vê, eficiência que você sente."

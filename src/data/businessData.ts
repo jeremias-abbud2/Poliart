@@ -1,3 +1,5 @@
+import poliartLogo from '../assets/logo.png';
+
 export interface ServiceItem {
   id: string;
   name: string;
@@ -28,7 +30,7 @@ export const BUSINESS_INFO = {
   legalName: "Poliart Silk Screen Comércio e Serviços",
   slogan: "Sua Marca em Destaque, Online e Offline",
   subslogan: "Transformamos suas ideias em resultados visuais que impactam. Qualidade que você vê, eficiência que você sente.",
-  logoUrl: "/assets/aistudio/Modify_logo_background_and_borders_fb4997e6_2K_3fc3ce79.png",
+  logoUrl: poliartLogo || "/logo.png",
   brandColor: "#FF6800",
   brandRed: "#E51821",
   phone: "(35) 3558-6402",

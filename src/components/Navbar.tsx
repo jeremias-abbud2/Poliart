@@ -18,25 +18,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4 h-24 sm:h-28 md:h-32 lg:h-36">
           
-          {/* Zone 1: Giant Prominent Official Logo with smooth interactive hover */}
+          {/* Zone 1: Giant Prominent Official Logo - Seamless with exact #FF6800 background */}
           <a 
             href="#" 
-            className="flex items-center group shrink-0 focus:outline-none py-1"
+            className="flex items-center shrink-0 focus:outline-none py-1"
             title="Poliart Silk Screen - Início"
           >
-            <motion.div 
-              className="relative flex items-center justify-center"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              transition={{ type: "spring", stiffness: 400, damping: 20 }}
-            >
-              <img
-                src={BUSINESS_INFO.logoUrl}
-                alt="Poliart Silk Screen - Logotipo Oficial"
-                className="h-20 sm:h-24 md:h-28 lg:h-32 xl:h-34 w-auto object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.25)]"
-                loading="eager"
-              />
-            </motion.div>
+            <img
+              src={BUSINESS_INFO.logoUrl}
+              alt="Poliart Silk Screen - Logotipo Oficial"
+              className="h-20 sm:h-24 md:h-28 lg:h-32 xl:h-34 w-auto object-contain block"
+              loading="eager"
+            />
           </a>
 
           {/* Zone 2: Navigation Links (Pure White, Bold, with Smooth Interactive Hover Pill) */}
