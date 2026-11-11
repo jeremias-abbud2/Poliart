@@ -1,0 +1,6 @@
+{
+  "name": "Poliart Silk Screen",
+  "description": "Comunicação visual, confecção de camisetas, serigrafia, banners, adesivos, troféus em acrílico e brindes em São Sebastião do Paraíso - MG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
